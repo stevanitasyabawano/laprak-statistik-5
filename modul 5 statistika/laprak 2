@@ -1,0 +1,5 @@
+stevani=read.delim("clipboard")
+View(stevani)
+str(stevani)
+mean(stevani$Pendapatan)
+t.test(stevani$Pendapatan, mu=14500)
