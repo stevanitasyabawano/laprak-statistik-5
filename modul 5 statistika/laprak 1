@@ -1,0 +1,5 @@
+stevani=read.delim("clipboard")
+View(stevani)
+str(stevani)
+mean(stevani$Volume)
+t.test(stevani$Volume, mu=10)
